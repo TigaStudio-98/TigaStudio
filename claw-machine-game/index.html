@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackpot 777</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Âm thanh -->
+    <audio id="background-music" loop>
+        <source src="audio/background.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="spin-sound">
+        <source src="audio/spin.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="win-sound">
+        <source src="audio/win.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Giao diện game -->
+    <div class="game-container">
+        <img src="images/jackpot-machine.png" class="jackpot-image" alt="Jackpot Machine">
+        <div class="slot-container">
+            <div class="slot" id="slot1">Tiga</div>
+            <div class="slot" id="slot2">Studio</div>
+            <div class="slot" id="slot3">20%</div>
+        </div>
+        <button id="spin-button">Rinh quà</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
+
